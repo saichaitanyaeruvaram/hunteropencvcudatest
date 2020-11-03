@@ -9,7 +9,7 @@ HunterGate(
 	FILEPATH ${CONFIG_FILEPATH}
   )
 
-project(OPENCVHUNTERTEST LANGUAGES CXX CUDA)
+project(OPENCVHUNTERTEST)
 hunter_add_package(OpenCV)
 find_package(OpenCV)	
 
