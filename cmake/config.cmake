@@ -3,8 +3,8 @@ hunter_config(
     VERSION ${HUNTER_OpenCV_VERSION}
     CMAKE_ARGS
     BUILD_EXAMPLES=OFF
-	BUILD_opencv_python2=ON
-	BUILD_opencv_python3=ON
+	BUILD_opencv_python2=OFF
+	BUILD_opencv_python3=OFF
 	CUDA_ARCH_BIN=5.3,6.2,7.2
 	CUDA_FAST_MATH=ON
 	CUDNN_VERSION='8.0'
